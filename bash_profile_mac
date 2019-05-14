@@ -37,6 +37,9 @@ alias rap='rake assets:precompile'
 alias rsecrets='rake secrets'
 alias rabout='rails about'
 
+alias capprod='cap production deploy'
+alias capstag='cap production deploy'
+
 #-------RVM (Ruby Version Manager)------
 alias rvmgc='rvm gemset create' # Create new gemset (name gemset)
 alias rvmgd='rvm gemset delete' # Delete gemset (name gemset)
