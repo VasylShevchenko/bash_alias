@@ -13,7 +13,7 @@ alias t='touch'
 #------------------------RAILS------------------------
 alias rs='rails s'
 alias rsb='rails s -b'
-alias rdreseed='rails db:reseed'
+alias rdbreseed='rails db:reseed'
 alias rs5='rails s -p 5000'
 alias rsp='rails server -e production'
 alias rsd='rails server -e development'
@@ -28,18 +28,18 @@ alias rgc='rails g controller'
 alias rgm='rails g model'
 alias rgt='rails g task'
 alias rt='rake -T'
-alias rdm='rails db:migrate'
-alias rdc='rails db:create'
-alias rdd='rails db:drop'
-alias rds='rails db:seed'
-alias rdrol='rails  db:rollback' # You can specify the number of steps like this rails  db:rollback STEP=3
-alias rdreset='rails db:drop && rails db:create && rails db:migrate && rails db:seed && rails s'
+alias rdbm='rails db:migrate'
+alias rdbc='rails db:create'
+alias rdbd='rails db:drop'
+alias rdbs='rails db:seed'
+alias rddrol='rails  db:rollback' # You can specify the number of steps like this rails  db:rollback STEP=3
+alias rdbres='rails db:drop && rails db:create && rails db:migrate && rails db:seed && rails s'
 alias rap='rails assets:precompile'
 alias rsecrets='rails secrets'
 alias rabout='rails about'
 
 alias capprod='cap production deploy'
-alias capstag='cap production deploy'
+alias capstag='cap staging deploy'
 
 #------------------------RVM (Ruby Version Manager)------------------------
 alias rvmgc='rvm gemset create' # Create new gemset (name gemset)
