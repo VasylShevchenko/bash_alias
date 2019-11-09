@@ -1,10 +1,5 @@
-![Mac](https://s4827.pcdn.co/wp-content/uploads/2011/11/Apple-Rainbow-Logo.png)
+### Read
 
-![Lunux](http://pngimg.com/uploads/linux/linux_PNG9.png)
-
-
-
-Read
 https://averyryder.com/blog/template/
 
 # Example
@@ -14,6 +9,9 @@ alias ..='cd ..'
 ```bash
 $ alias AliasName='Command Line'
 ```
+
+### add update bush alias
+### update readme
 
 
 
