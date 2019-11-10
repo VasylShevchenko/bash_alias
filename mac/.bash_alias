@@ -2,7 +2,7 @@
 #============== Mac alias for comand line ===========================
 #====================================================================
 
-#------------------------FILES------------------------
+#------------------------ FILES ------------------------
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -10,7 +10,7 @@ alias rmf='rm -f'
 alias rmd='rm -rf'
 alias t='touch'
 
-#------------------------RAILS------------------------
+#------------------------ RAILS ------------------------
 alias rs='rails s'
 alias rsb='rails s -b'
 alias rdbreseed='rails db:reseed'
@@ -38,10 +38,11 @@ alias rap='rails assets:precompile'
 alias rsecrets='rails secrets'
 alias rabout='rails about'
 
+#------------------------ Capistrano ------------------------
 alias capprod='cap production deploy'
 alias capstag='cap staging deploy'
 
-#------------------------RVM (Ruby Version Manager)------------------------
+#------------------------ RVM (Ruby Version Manager) ------------------------
 alias rvmgc='rvm gemset create' # Create new gemset (name gemset)
 alias rvmgd='rvm gemset delete' # Delete gemset (name gemset)
 alias rvmge='rvm gemset empty' # Empty gemset (name gemset) --force
@@ -56,7 +57,7 @@ alias rvmi='rvm install' # Install version Ruby (version ruby 1.9.3)
 alias rvmr='rvm remove' # Remove version Ruby (version ruby 1.9.3)
 alias rvmu='rvm use' # Switch to ruby version (version ruby 1.9.3) -default use by default
 
-#------------------------GIT------------------------
+#------------------------ GIT ------------------------
 alias ga='git add .'
 alias gc='git commit -m'
 alias gca='git commit -am'
