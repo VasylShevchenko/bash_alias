@@ -12,28 +12,38 @@ alias t='touch'
 
 #------------------------ RAILS ------------------------
 alias rs='rails s'
-alias rsb='rails s -b'
-alias rdbreseed='rails db:reseed'
-alias rs5='rails s -p 5000'
-alias rsp='rails server -e production'
-alias rsd='rails server -e development'
-alias rsdev='RAILS_ENV=development bundle exec rails s'
-alias rsprod='RAILS_ENV=production bundle exec rails s'
-alias rsother='rails server -p 44444'
 alias rc='rails c'
-alias rcdev='RAILS_ENV=development bundle exec rails c'
-alias rcprod='RAILS_ENV=production bundle exec rails c'
+
+alias rsb='rails s -b'
+alias rs5='rails s -p 5000'
+
+alias rsp='RAILS_ENV=production rails server'
+alias rss='RAILS_ENV=staging rails server'
+alias rsd='RAILS_ENV=development rails server'
+
+alias rcp='RAILS_ENV=production rails console'
+alias rcs='RAILS_ENV=staging rails console'
+alias rcd='RAILS_ENV=development rails console'
+
+alias rsother='rails server -p 44444'
+
 alias rg='rails g'
 alias rgc='rails g controller'
 alias rgm='rails g model'
 alias rgt='rails g task'
+
 alias rt='rake -T'
+
 alias rdbm='rails db:migrate'
 alias rdbc='rails db:create'
 alias rdbd='rails db:drop'
 alias rdbs='rails db:seed'
-alias rdbrol='rails  db:rollback' # You can specify the number of steps like this rails  db:rollback STEP=3
+
+alias rdbrol='rails db:rollback' # You can specify the number of steps like this rails  db:rollback STEP=3
+
 alias rdbres='rails db:drop && rails db:create && rails db:migrate && rails db:seed && rails s'
+alias rdbreseed='rails db:reseed'
+
 alias rap='rails assets:precompile'
 alias rsecrets='rails secrets'
 alias rabout='rails about'
