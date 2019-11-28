@@ -48,7 +48,15 @@ alias rap='rails assets:precompile'
 alias rsecrets='rails secrets'
 alias rabout='rails about'
 
-#------------------------ Capistrano ------------------------
+
+#-------------------------------------------------------
+#------------------------ Sidekiq ----------------------
+alias sid='sidekiq'
+alias sids='sidekiq -e staging'
+alias sidp='sidekiq -e production'
+
+#-------------------------------------------------------
+#------------------------ Capistrano -------------------
 alias capprod='cap production deploy'
 alias capstag='cap staging deploy'
 
