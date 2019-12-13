@@ -108,11 +108,24 @@ alias l='ls'
 alias la='ls -a'
 alias ll='ls -l'
 alias lla='ls -la'
+alias ls='ls -lh'
 alias lsf='ls -d */'
 alias md='mkdir'
 alias cls='clear'
-
 alias pag='ps aux | grep'
+
+#-------------------------------------------------------
+#------------------------ NPM --------------------------
+alias ssrb='npm run build:ssr'
+alias ssrs='npm run serve:ssr'
+alias ssr='npm run build:ssr && npm run serve:ssr'
+
+
+#-------------------------------------------------------
+#------------------------ PM2 --------------------------
+alias pm2s='pm2 start dist/server'
+alias pm2l='pm2 logs'
+alias pm2k='pm2 kill'
 
 
 #=======================================================
