@@ -90,6 +90,8 @@ alias cls='clear'
 alias kernel='uname -r' # Linux version kernels
 alias ubuntuv='lsb_release -a' # Checking Your Ubuntu Version
 
+#ls -l --block-size=M
+
 #-------OTHER-------
 alias where='whereis'
 alias disks='ls /dev/disk/by-uuid/ -alh'
