@@ -116,9 +116,7 @@ alias pag='ps aux | grep'
 
 #-------------------------------------------------------
 #------------------------ NPM --------------------------
-alias ssrb='npm run build:ssr'
-alias ssrs='npm run serve:ssr'
-alias ssr='npm run build:ssr && npm run serve:ssr'
+alias npmi='npm install'
 
 
 #-------------------------------------------------------
@@ -126,6 +124,18 @@ alias ssr='npm run build:ssr && npm run serve:ssr'
 alias pm2s='pm2 start dist/server'
 alias pm2l='pm2 logs'
 alias pm2k='pm2 kill'
+
+
+#-------------------------------------------------------
+#------------------------ Angular --------------------------
+alias ssrb='npm run build:ssr'
+alias ssrs='npm run serve:ssr'
+alias ssr='npm run build:ssr && npm run serve:ssr'
+alias ngs='ng serve'
+alias ngs='ng serve'
+alias ngl='ng serve --live-reload false'
+
+
 
 
 #=======================================================
