@@ -132,9 +132,15 @@ alias pm2k='pm2 kill'
 alias ssrb='npm run build:ssr'
 alias ssrs='npm run serve:ssr'
 alias ssr='npm run build:ssr && npm run serve:ssr'
+
 alias ngs='ng serve'
-alias ngs='ng serve'
-alias ngl='ng serve --live-reload false'
+alias ngself='ng serve --live-reload false'
+
+alias ngb='ng build'
+alias ngbw='ng build --watch'
+
+alias ngbp='ng build --prod'
+alias ngbpw='ng build --prod --watch'
 
 
 
