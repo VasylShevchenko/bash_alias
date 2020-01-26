@@ -34,6 +34,8 @@ alias rg='rails g'
 alias rgc='rails g controller'
 alias rgm='rails g model'
 alias rgt='rails g task'
+alias rgmail='rails g mailer'
+alias rgmg='rails g migration'
 
 alias rt='rake -T'
 
@@ -133,8 +135,8 @@ alias ssrb='npm run build:ssr'
 alias ssrs='npm run serve:ssr'
 alias ssr='npm run build:ssr && npm run serve:ssr'
 
-alias ngs='ng serve'
-alias ngself='ng serve --live-reload false'
+alias ngs='ng serve --live-reload false'
+alias ngsl='ng serve --live-reload true'
 
 alias ngb='ng build'
 alias ngbw='ng build --watch'
