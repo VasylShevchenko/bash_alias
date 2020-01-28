@@ -33,21 +33,18 @@ alias rsother='rails server -p 44444'
 alias rg='rails g'
 alias rgc='rails g controller'
 alias rgm='rails g model'
+alias rgmg='rails g migration'
 alias rgt='rails g task'
 alias rgmail='rails g mailer'
-alias rgmg='rails g migration'
 
 alias rt='rake -T'
 
-alias rdbm='rails db:migrate'
 alias rdbc='rails db:create'
+alias rdbm='rails db:migrate'
 alias rdbd='rails db:drop'
 alias rdbs='rails db:seed'
-
-alias rdbrol='rails db:rollback' # You can specify the number of steps like this rails  db:rollback STEP=3
-
-alias rdbres='rails db:drop && rails db:create && rails db:migrate && rails db:seed && rails s'
-alias rdbreseed='rails db:reseed'
+alias rdbr='rails db:rollback' # You can specify the number of steps like this rails  db:rollback STEP=3
+alias rdbreset='rails db:drop && rails db:create && rails db:migrate && rails db:seed && rails s'
 
 alias rap='rails assets:precompile'
 alias rsecrets='rails secrets'
