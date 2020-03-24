@@ -44,6 +44,8 @@ alias rdbm='rails db:migrate'
 alias rdbd='rails db:drop'
 alias rdbs='rails db:seed'
 alias rdbr='rails db:rollback' # You can specify the number of steps like this rails  db:rollback STEP=3
+alias rdbstart='rails db:create && rails db:migrate'
+alias rdbrestart='rails db:drop && rails db:create && rails db:migrate'
 alias rdbreset='rails db:drop && rails db:create && rails db:migrate && rails db:seed && rails s'
 
 alias rap='rails assets:precompile'
