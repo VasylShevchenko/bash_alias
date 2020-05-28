@@ -155,6 +155,13 @@ alias docstop='docker stop $(docker ps -q)' # Stop working Docker containers
 alias docstopa='docker stop $(docker ps -a -q)' # Stop all Docker containers
 alias docup='docker-compose up'
 
+#-----------------------------------------------------------
+#------------------------ Rubocop --------------------------
+alias gitcop='git ls-files -m | xargs ls -1 2>/dev/null | grep .rb | xargs rubocop' # Checking files modified in Git
+
+
+
+
 #=======================================================
 #======================== END ==========================
 #=======================================================
