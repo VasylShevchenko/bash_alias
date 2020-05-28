@@ -144,7 +144,16 @@ alias ngbp='ng build --prod'
 alias ngbpw='ng build --prod --watch'
 
 
-
+#----------------------------------------------------------
+#------------------------ Docker --------------------------
+alias doci='docker info'
+alias docimgs='docker images'
+alias docps='docker ps'
+alias docpsq='docker ps -q' # Working Docker containers
+alias docpsqa='docker ps -a -q' # Working Docker containers
+alias docstop='docker stop $(docker ps -q)' # Stop working Docker containers
+alias docstopa='docker stop $(docker ps -a -q)' # Stop all Docker containers
+alias docup='docker-compose up'
 
 #=======================================================
 #======================== END ==========================
