@@ -146,21 +146,27 @@ alias ngbpw='ng build --prod --watch'
 
 #----------------------------------------------------------
 #------------------------ Docker --------------------------
-alias doci='docker info'
-alias docimgs='docker images'
+alias docinfo='docker info'
+alias docs='docker search'
+alias doci='docker images'
 alias docps='docker ps'
+alias docpsa='docker ps -a'
 alias docpsq='docker ps -q' # Working Docker containers
 alias docpsqa='docker ps -a -q' # Working Docker containers
 alias docstop='docker stop $(docker ps -q)' # Stop working Docker containers
 alias docstopa='docker stop $(docker ps -a -q)' # Stop all Docker containers
+
 alias docup='docker-compose up'
+alias docat='docker attach'
+
+alias docex='docker exec -it' # docker exec -it CONTAINER bash
+alias docb='docker-compose build'
+
 
 #-----------------------------------------------------------
 #------------------------ Rubocop --------------------------
-alias gitcop='git ls-files -m | xargs ls -1 2>/dev/null | grep .rb | xargs rubocop' # Checking files modified in Git
-
-
-
+alias gitcop='git status -s | xargs ls -1 2>/dev/null | grep .rb | xargs rubocop'
+alias gitcopm='git ls-files -m | xargs ls -1 2>/dev/null | grep .rb | xargs rubocop' # Checking files modified in Git
 
 #=======================================================
 #======================== END ==========================
