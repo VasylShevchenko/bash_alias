@@ -13,7 +13,12 @@ $ alias AliasName='Command Line'
 ### add update bush alias
 ### update readme
 
+### Install
 
+### Update
+```bash
+$ sh mac_update.sh
+```
 
 
 Add shortcuts
