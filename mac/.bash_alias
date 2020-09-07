@@ -146,21 +146,21 @@ alias ngbpw='ng build --prod --watch'
 
 #----------------------------------------------------------
 #------------------------ Docker --------------------------
-alias docinfo='docker info'
-alias docs='docker search'
-alias doci='docker images'
-alias docps='docker ps'
-alias docpsa='docker ps -a'
-alias docpsq='docker ps -q' # Working Docker containers
-alias docpsqa='docker ps -a -q' # Working Docker containers
-alias docstop='docker stop $(docker ps -q)' # Stop working Docker containers
-alias docstopa='docker stop $(docker ps -a -q)' # Stop all Docker containers
+alias dinfo='docker info'
+alias ds='docker search'
+alias di='docker images'
+alias dps='docker ps'
+alias dpsa='docker ps -a'
+alias dpsq='docker ps -q' # Working Docker containers
+alias dpsqa='docker ps -a -q' # Working Docker containers
+alias dstop='docker stop $(docker ps -q)' # Stop working Docker containers
+alias dstopa='docker stop $(docker ps -a -q)' # Stop all Docker containers
 
-alias docup='docker-compose up'
-alias docat='docker attach'
+alias dcup='docker-compose up'
+alias dcat='docker attach'
 
-alias docex='docker exec -it' # docker exec -it CONTAINER bash
-alias docb='docker-compose build'
+alias dex='docker exec -it' # docker exec -it CONTAINER bash
+alias dcb='docker-compose build'
 
 
 #-----------------------------------------------------------
