@@ -129,7 +129,7 @@ alias pm2k='pm2 kill'
 
 
 #-------------------------------------------------------
-#------------------------ Angular --------------------------
+#------------------------ Angular ----------------------
 alias ssrb='npm run build:ssr'
 alias ssrs='npm run serve:ssr'
 alias ssr='npm run build:ssr && npm run serve:ssr'
@@ -169,6 +169,10 @@ alias dcb='docker-compose build'
 #------------------------ Rubocop --------------------------
 alias gitcop='git status -s | xargs ls -1 2>/dev/null | grep .rb | xargs rubocop'
 alias gitcopm='git ls-files -m | xargs ls -1 2>/dev/null | grep .rb | xargs rubocop' # Checking files modified in Git
+
+#-----------------------------------------------------------
+#------------------------ Homebrew -------------------------
+alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 
 #=======================================================
 #======================== END ==========================
